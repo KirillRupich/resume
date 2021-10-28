@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(158, 158, 145);
+}
+.grid{
+    display: grid;
+    grid-template: 100px 380px/1fr 600px 1fr;
+}
+.weather_blok{
+    /* background-color: gray; */
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+    grid-template: 190px 190px/ 1fr;
+}
+.img_blok{
+    /* background-color: green; */
+}
+#city_name{
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px white solid;
+}
+.img_blok>img{
+    height: auto;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.week_blok{
+    background-color: white;
+    grid-row: 2;
+    border-radius: 0 0 10px 10px;
+    display: grid;
+    grid-template:  10px 1fr/1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.day{
+    grid-row: 2;
+}
+span{
+    font-size: 19px;
+    margin-left: 5px;
+    /* background-color: yellow; */
+
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    /* background-color: green; */
+}
+p{
+    margin-left: 10px;
+    font-size: 23px;
+    margin-top: -1px;
+}
